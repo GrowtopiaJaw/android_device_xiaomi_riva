@@ -1896,7 +1896,7 @@ etc/camera/s5k5e8_chromatix.xml:vendor/etc/camera/s5k5e8_chromatix.xml
 etc/camera/s5k5e8_ofilm_chromatix.xml:vendor/etc/camera/s5k5e8_ofilm_chromatix.xml
 etc/camera/s5k5e8_ofilm_riva_chromatix.xml:vendor/etc/camera/s5k5e8_ofilm_riva_chromatix.xml
 etc/camera/s5k5e8_qtech_riva_chromatix.xml:vendor/etc/camera/s5k5e8_qtech_riva_chromatix.xml
-etc/camera/s5k5e8_sunny_chromatix.xml:vendor/etc/camera/s5k5e8_sunny_chromatix.xm
+etc/camera/s5k5e8_sunny_chromatix.xml:vendor/etc/camera/s5k5e8_sunny_chromatix.xml
 etc/camera/sony_imx486_ii_chromatix.xml:vendor/etc/camera/sony_imx486_ii_chromatix.xml
 etc/camera/csidtg_chromatix.xml:vendor/etc/camera/csidtg_chromatix.xml
 etc/camera/ov5675_d5v15b_chromatix.xml:vendor/etc/camera/ov5675_d5v15b_chromatix.xml
