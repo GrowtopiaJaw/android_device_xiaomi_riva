@@ -2,8 +2,6 @@
 lib/soundfx/libdirac.so:vendor/lib/soundfx/libdirac.so
 lib/libDiracAPI_SHARED.so:vendor/lib/libDiracAPI_SHARED.so
 vendor/etc/diracmobile.config
-vendor/lib/libhwdaphal.so
-vendor/lib64/libhwdaphal.so
 
 # Audio ACDB - from riva - OPM1.171019.026 - 8.11.23
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
