@@ -21,7 +21,7 @@ vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
 # Audio libraries - from riva - OPM1.171019.026 - 8.11.23
-etc/permissions/audiosphere.xml:vendor/etc/permissions/audiosphere.xml
+etc/permissions/audiosphere.xml:vendor/etc/permissions/audiosphere.xml|737461e450cb6e18e57621b044b033c90e0c5920
 framework/audiosphere.jar:vendor/framework/audiosphere.jar
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -73,8 +73,8 @@ vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so
 # CNE - from riva - OPM1.171019.026 - 8.11.23
 etc/cne/andsfCne.xml:vendor/etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml:vendor/etc/cne/SwimConfig.xml
-etc/permissions/cneapiclient.xml:vendor/etc/permissions/cneapiclient.xml
-etc/permissions/com.quicinc.cne.xml:vendor/etc/permissions/com.quicinc.cne.xml
+etc/permissions/cneapiclient.xml:vendor/etc/permissions/cneapiclient.xml|3a1c77ef48653ec572b30ca86ebf18aab760c7b3
+etc/permissions/com.quicinc.cne.xml:vendor/etc/permissions/com.quicinc.cne.xml|bd1e5321176d9c10411a942743d976fb80418319
 -framework/cneapiclient.jar:vendor/framework/cneapiclient.jar
 -framework/com.quicinc.cne.api-V1.0-java.jar:vendor/framework/com.quicinc.cne.api-V1.0-java.jar
 -framework/com.quicinc.cne.jar:vendor/framework/com.quicinc.cne.jar
@@ -156,8 +156,8 @@ vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
 # Qualcomm Trusted Execution Enviornment - from riva - OPM1.171019.026 - 8.11.23
-lib/vendor.qti.hardware.qteeconnector@1.0.so
-lib64/vendor.qti.hardware.qteeconnector@1.0.so
+lib/vendor.qti.hardware.qteeconnector@1.0.so:vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
+lib64/vendor.qti.hardware.qteeconnector@1.0.so:vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
@@ -178,9 +178,9 @@ vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/gatekeeper.msm8937.so
 
 # GPS - from riva - OPM1.171019.026 - 8.11.23
-etc/permissions/com.qti.location.sdk.xml:vendor/etc/permissions/com.qti.location.sdk.xml
+etc/permissions/com.qti.location.sdk.xml:vendor/etc/permissions/com.qti.location.sdk.xml|0b0fa5ed38c2136cfc4d09f0fbed2e912919f5d4
 etc/permissions/com.qualcomm.location.xml:vendor/etc/permissions/com.qualcomm.location.xml
-etc/permissions/izat.xt.srv.xml:vendor/etc/permissions/izat.xt.srv.xml
+etc/permissions/izat.xt.srv.xml:vendor/etc/permissions/izat.xt.srv.xml|01f64eaadadddaedca2414e09f16129256ac298e
 framework/com.qti.location.sdk.jar:vendor/framework/com.qti.location.sdk.jar
 framework/izat.xt.srv.jar:vendor/framework/izat.xt.srv.jar
 lib64/liblocationservice_jni.so:vendor/lib64/liblocationservice_jni.so
@@ -417,7 +417,8 @@ vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-iopd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-util.so
+lib/libqti-perfd-client_system.so:vendor/lib/libqti-util.so
+lib/libqti_performance.so:vendor/lib/libqti_performance.so
 vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so
 vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
@@ -428,6 +429,8 @@ vendor/lib64/libqti-iopd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-util.so
+lib64/libqti_performance.so:vendor/lib64/libqti_performance.so
+lib64/libqti-perfd-client_system.so:vendor/lib64/libqti-perfd-client_system.so
 vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so
 vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
@@ -439,7 +442,7 @@ vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
 # Postprocessing - from riva - OPM1.171019.026 - 8.11.23
-etc/permissions/com.qti.snapdragon.sdk.display.xml:vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml
+etc/permissions/com.qti.snapdragon.sdk.display.xml:vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml|12d9879c5a439c5a31628eb8e925ef52baf9beb2
 framework/com.qti.snapdragon.sdk.display.jar:vendor/framework/com.qti.snapdragon.sdk.display.jar
 lib/libsd_sdk_display.so:vendor/lib/libsd_sdk_display.so
 lib/vendor.display.color@1.0.so:vendor/lib/vendor.display.color@1.0.so
@@ -557,8 +560,8 @@ vendor/radio/qcril_database/qcril.db
 -app/ims/ims.apk:vendor/app/ims/ims.apk|24aee26c7409564400ce093520408242863630c6
 -app/imssettings/imssettings.apk:vendor/app/imssettings/imssettings.apk
 -app/uceShimService/uceShimService.apk:vendor/app/uceShimService/uceShimService.apk
-etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml
-etc/permissions/com.qualcomm.qti.imscmservice.xml:vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml
+etc/permissions/qti-vzw-ims-internal.xml:vendor/etc/permissions/qti-vzw-ims-internal.xml|3e41b645dd4ad8bad6775c103a34bfd7a507a4f7
+etc/permissions/com.qualcomm.qti.imscmservice.xml:vendor/etc/permissions/com.qualcomm.qti.imscmservice.xml|856443de67c8bc4c397aaf346764a9ff4e636437
 framework/com.qualcomm.qti.imscmservice@1.0-java.jar:vendor/framework/com.qualcomm.qti.imscmservice@1.0-java.jar
 lib/com.qualcomm.qti.imscmservice@1.0.so:vendor/lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so:vendor/lib/lib-imscamera.so
