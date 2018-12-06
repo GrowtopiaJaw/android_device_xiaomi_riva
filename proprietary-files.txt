@@ -47,7 +47,7 @@ vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
 
-# Camera - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 bin/mm-qcamera-app:vendor/bin/mm-qcamera-app|ae879389216910d93bf3661e9c7ef3b56a545397
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon|ac9b9fd8d4c2a93e10c461b62677454f22d760ab
 vendor/lib/libjni_dualcamera.so|62e614bbbb14a09c968b746c37e8b1da5c18ab07
@@ -275,7 +275,7 @@ vendor/lib64/libjni_dualcamera.so|7dfc4005308fff12cc816f86e224409cd6f7fcc3
 -vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0
 -vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10
 
-# Camera actuators - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera actuators - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 vendor/lib/libactuator_ad5816g.so|3d281ddbc90cea2e05569af8ae20bafac9cab559
 vendor/lib/libactuator_ad5823.so|a62d817f8a250c969eded08b340ed07da6af8a65
 vendor/lib/libactuator_ak7345.so|af8f1e9242d452a8d18f1aede481326a5ac0f762
@@ -298,7 +298,7 @@ vendor/lib/libactuator_rohm_bu64243gwz.so|bac8fcf1b40432af9459d804d70fc2afb094f2
 vendor/lib/libactuator_dw9763_sony_imx486_ii.so|b466971c1779256c9dc483aa25c1edfe08027a67
 vendor/lib/libactuator_ovt_ov12a10_i_dw9763.so|64b14cfd99e6d381c21102ce6b9204b78eb55fe8
 
-# Camera chromatix - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera chromatix - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 vendor/lib/libchromatix_imx230_cpp_snapshot_downscale.so|291b6cabab261828595f27c2cd6e30e0d2b0aa16
 vendor/lib/libchromatix_imx258_default_video.so|3981fd807cff5c3314ea0cdb7c50faebc5429f2b
 vendor/lib/libchromatix_imx230_cpp_snapshot_upscale.so|e98ded77cf843d5699f8b99e6cad75c850e240a2
@@ -1843,7 +1843,7 @@ vendor/lib/libchromatix_sony_imx486_ii_india_snapshot.so|193fe6b9314365f428222c3
 vendor/lib/libchromatix_sony_imx486_ii_india_zsl_preview_dw9714v.so|6cda2b8e228f5eb10e0dc9f17cd6dae9f5c67897
 vendor/lib/libchromatix_sony_imx486_ii_india_zsl_video_dw9714v.so|797ba8ae2325925f594d36f7db7c25c4ef07c24a
 
-# Camera configs - from MIUI Stable - V9.6.2.0
+# Camera configs - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|5df82c76aa8969f29c4556ddf3a7370c76e4d938
 etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml|406e2dec13dc910415ff72fc5a7ee084c97ab61f
 etc/camera/imx214_chromatix.xml:vendor/etc/camera/imx214_chromatix.xml|c27c3a806a18dfa693c186dbf5fdf48f715acacb
@@ -1906,7 +1906,7 @@ etc/camera/s5k3l8_ofilm_riva_india_chromatix.xml:vendor/etc/camera/s5k3l8_ofilm_
 etc/camera/s5k5e8_ofilm_riva_india_chromatix.xml:vendor/etc/camera/s5k5e8_ofilm_riva_india_chromatix.xml|2df2c71475b0eaa9ff7978d2336bb7d9536e62ca
 etc/camera/s5k5e8_qtech_riva_india_chromatix.xml:vendor/etc/camera/s5k5e8_qtech_riva_india_chromatix.xml|f6bf3f2af19fe38905d983dcb5220edcedf3e91f
 
-# Camera firmware - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera firmware - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw|04b8eb253d630eaeadab296e1607dc6a29d93d3c
 etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
 etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw|5ff0d66bcdbb29f4e924d011ae825583e48b3962
@@ -1918,7 +1918,7 @@ etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw|26e2b
 etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
 etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw|de18ccdf371824059acfdf3c7754c6e1bc1c2f8c
 
-# Camera sensors - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera sensors - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 vendor/lib/libmmcamera_isp_abf40.so|3fc43becb76d7ca0334710e5cce3f5f510a4478d
 vendor/lib/libmmcamera_isp_bcc40.so|9bb9eca01b0bc9c52789eb781d00b41baaa81458
 vendor/lib/libmmcamera_isp_be_stats44.so|6df793ef6d8a7ca80e31097533c1eb27e49002b9
