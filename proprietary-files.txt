@@ -48,7 +48,7 @@ vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
 
 # Camera - from MIUI Stable - V9.2.6.0.NCCMIEK
-bin/mm-qcamera-app:vendor/bin/mm-qcamera-app|c7ba621a7bd86790e7e0f2cd476ef26782ec9a1b
+bin/mm-qcamera-app:vendor/bin/mm-qcamera-app|ae879389216910d93bf3661e9c7ef3b56a545397
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon|ac9b9fd8d4c2a93e10c461b62677454f22d760ab
 vendor/lib/libjni_dualcamera.so|62e614bbbb14a09c968b746c37e8b1da5c18ab07
 vendor/lib/libChamomilePA.so|7dcc9caa82fb890da77ebb2dc0c1d123cd7c5870
@@ -58,7 +58,7 @@ vendor/lib/libmorpho_panorama_gp.so|aa131ed9a7cd2caf5b1cb72900ca9b2126f7df46
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
 vendor/lib/libflash_pmic.so|6e0efce330476a9844a81fe92a58c4ab7f6a2868
 vendor/lib/libjpegdhw.so|395ae1604017c4a172d1b26cfd31d5e03c8af937
-vendor/lib/libjpegdmahw.so|d7f948191dfb3a76cf1c3d0ba6af07b30ffcfd94
+vendor/lib/libjpegdmahw.so|dd9126468321c78b27de402cb4f482ea43b4cd5d
 vendor/lib/libjpegehw.so|7bbdfb30acb9691f330f89a1a480fa782705693f
 vendor/lib/libllvd_smore.so|d08432b63c6c2863e7a197b52475df64b10b5e13
 vendor/lib/libflash_gpio.so|06aafdce226e43855a230d9840e31446b3262611
@@ -191,7 +191,7 @@ vendor/lib64/libmmcamera2_frame_algorithm.so|0fc0b1614a7591676e4626d22375504c005
 vendor/lib64/libmmcamera2_is.so|1967ee25c89987bf1ec222e407d45b04e809cd00
 vendor/lib64/libmmcamera2_q3a_core.so|13c5b5482f45102aa9221080d7ca7fd511f05aca
 vendor/lib64/libmmcamera2_stats_algorithm.so|19f1fde83c46ae759d30f01408282293544a8b26
-vendor/lib64/libmmcamera_dbg.so|ab2758afe90ec500732c641fbeda7fdc518b12a8
+vendor/lib64/libmmcamera_dbg.so|2eba28bb0a7b3c1d605a69974eac26ddc48b68f1
 vendor/lib64/libmmcamera_tintless_algo.so|b37abbda9594fb6cff551ee7f57d218925455d4e
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so|a130c6dda0ee884e96f9b51066ee038e995bd5ec
 vendor/lib/libmmcamera2_mct_shimlayer.so|4f77bf712565c70d00d33500ed55f378cf512190
@@ -261,7 +261,7 @@ vendor/lib64/libmmcamera2_is.so|1967ee25c89987bf1ec222e407d45b04e809cd00
 vendor/lib64/libmmcamera2_q3a_core.so|13c5b5482f45102aa9221080d7ca7fd511f05aca
 vendor/lib64/libmmcamera2_stats_algorithm.so|19f1fde83c46ae759d30f01408282293544a8b26
 vendor/lib64/libmmcamera_cac3_lib.so|3ae46117be3a8050a3a97aca417d18081cb0296d
-vendor/lib64/libmmcamera_dbg.so|ab2758afe90ec500732c641fbeda7fdc518b12a8
+vendor/lib64/libmmcamera_dbg.so|2eba28bb0a7b3c1d605a69974eac26ddc48b68f1
 vendor/lib64/libmmcamera_tintless_algo.so|b37abbda9594fb6cff551ee7f57d218925455d4e
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so|a130c6dda0ee884e96f9b51066ee038e995bd5ec
 vendor/lib64/libmmsw_detail_enhancement.so|294dfdfc57e92e0b1f8ea237f0182831ad22a55e
@@ -1844,7 +1844,7 @@ vendor/lib/libchromatix_sony_imx486_ii_india_zsl_preview_dw9714v.so|6cda2b8e228f
 vendor/lib/libchromatix_sony_imx486_ii_india_zsl_video_dw9714v.so|797ba8ae2325925f594d36f7db7c25c4ef07c24a
 
 # Camera configs - from MIUI Stable - V9.6.2.0
-etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|a9285443851f58b0f0eae003e0b80c9cf410f6d8
+etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|5df82c76aa8969f29c4556ddf3a7370c76e4d938
 etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml|406e2dec13dc910415ff72fc5a7ee084c97ab61f
 etc/camera/imx214_chromatix.xml:vendor/etc/camera/imx214_chromatix.xml|c27c3a806a18dfa693c186dbf5fdf48f715acacb
 etc/camera/imx230_chromatix.xml:vendor/etc/camera/imx230_chromatix.xml|5fc002e42292f302f4e5d0f45f94d5e35c6e0821
