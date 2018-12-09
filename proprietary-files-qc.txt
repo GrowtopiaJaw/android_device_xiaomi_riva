@@ -1,20 +1,24 @@
-# ADSP - from marmite - OPM5.171019.017 - UOS273C
+# ADSP - from riva - OPM1.171019.026 - 8.12.6
 vendor/bin/adsprpcd
 vendor/lib/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
+vendor/lib/libmdsprpc.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
+vendor/lib64/libmdsprpc.so
 
-# ADSP modules - from marmite - OPM5.171019.017 - UOS273C
+# ADSP modules - from riva - OPM1.171019.026 - 8.12.6
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libexternal_dog_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
 # Audio libraries - from marmite - OPM5.171019.017 - UOS273C
 etc/permissions/audiosphere.xml
