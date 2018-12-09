@@ -56,7 +56,7 @@ vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb 
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb
 
-# Camera - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 bin/mm-qcamera-app:vendor/bin/mm-qcamera-app
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libjni_dualcamera.so
@@ -284,7 +284,7 @@ vendor/lib64/libjni_dualcamera.so
 -vendor/lib/libts_detected_face_hal.so
 -vendor/lib/libts_face_beautify_hal.so
 
-# Camera actuators - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera actuators - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
 vendor/lib/libactuator_ak7345.so
@@ -307,7 +307,7 @@ vendor/lib/libactuator_rohm_bu64243gwz.so
 vendor/lib/libactuator_dw9763_sony_imx486_ii.so
 vendor/lib/libactuator_ovt_ov12a10_i_dw9763.so
 
-# Camera chromatix - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera chromatix - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 vendor/lib/libchromatix_imx230_cpp_snapshot_downscale.so
 vendor/lib/libchromatix_imx258_default_video.so
 vendor/lib/libchromatix_imx230_cpp_snapshot_upscale.so
@@ -1852,7 +1852,7 @@ vendor/lib/libchromatix_sony_imx486_ii_india_snapshot.so
 vendor/lib/libchromatix_sony_imx486_ii_india_zsl_preview_dw9714v.so
 vendor/lib/libchromatix_sony_imx486_ii_india_zsl_video_dw9714v.so
 
-# Camera configs - from MIUI Stable - V9.6.2.0
+# Camera configs - from riva - N2G47H - V9.6.2.0.NCKMIFD
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
 etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml
 etc/camera/imx214_chromatix.xml:vendor/etc/camera/imx214_chromatix.xml
@@ -1915,7 +1915,7 @@ etc/camera/s5k3l8_ofilm_riva_india_chromatix.xml:vendor/etc/camera/s5k3l8_ofilm_
 etc/camera/s5k5e8_ofilm_riva_india_chromatix.xml:vendor/etc/camera/s5k5e8_ofilm_riva_india_chromatix.xml
 etc/camera/s5k5e8_qtech_riva_india_chromatix.xml:vendor/etc/camera/s5k5e8_qtech_riva_india_chromatix.xml
 
-# Camera firmware - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera firmware - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_2_0.fw:vendor/firmware/cpp_firmware_v1_2_0.fw
@@ -1927,7 +1927,7 @@ etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
 etc/firmware/cpp_firmware_v1_10_0.fw:vendor/firmware/cpp_firmware_v1_10_0.fw
 etc/firmware/cpp_firmware_v1_12_0.fw:vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# Camera sensors - from MIUI Stable - V9.2.6.0.NCCMIEK
+# Camera sensors - from rolex - N2G47H - V9.2.6.0.NCCMIEK
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
 vendor/lib/libmmcamera_isp_be_stats44.so
