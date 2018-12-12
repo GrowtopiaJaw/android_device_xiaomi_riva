@@ -574,7 +574,6 @@ vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
 vendor/framework/qti-vzw-ims-internal.jar
-vendor/lib/liboemaids_vendor.so
 vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so
 vendor/lib/lib-imsSDP.so
 vendor/lib/lib-imscmservice.so
@@ -588,7 +587,6 @@ vendor/lib/lib-rtpsl.so
 vendor/lib/lib-uceservice.so
 vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so
-vendor/lib64/liboemaids_vendor.so
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0_vendor.so
 vendor/lib64/lib-dplmedia.so
 vendor/lib64/lib-imsSDP.so
@@ -603,6 +601,10 @@ vendor/lib64/lib-rtpsl.so
 vendor/lib64/lib-uceservice.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
+
+# Radio - IMS - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
+vendor/lib/liboemaids_vendor.so
+vendor/lib64/liboemaids_vendor.so
 
 # Sensors - from riva - OPM1.171019.026 - 8.11.6
 vendor/bin/sensors.qcom
