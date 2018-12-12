@@ -7,7 +7,7 @@ Branch
 * treble-vanilla (stable/ with cherry-pick from treble-vanilla_testing)
 * treble-vanilla_testing (unstable)
 
-Build instructions for Xiaomi Redmi 5A (_riva)
+Build instructions for Xiaomi Redmi 5A (_riva_)
 ==============================================
 
 1. Make sure all build dependencies are installed and is running Ubuntu 16.04/ 18.04
