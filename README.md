@@ -1,4 +1,6 @@
-Linaege Project (c) 2018
+LineageOS Project (c) 2018
+
+
 
 Device configuration for Xiaomi Redmi 5A  (_riva_)
 =====================================================
