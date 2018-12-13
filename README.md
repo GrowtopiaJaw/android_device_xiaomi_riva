@@ -14,18 +14,16 @@ Build instructions for Xiaomi Redmi 5A (_riva_)
 2. `mkdir lineage151`
 3. `cd lineage151`
 4. `repo init -u git://github.com/LineageOS/android.git -b lineage-15.1`
-5. `repo sync -c -j4 --force-sync --no-tags --no-clone-bundle`
-6. `mkdir -p device/xiaomi && mkdir -p kernel/xiaomi && mkdir -p vendor/xiaomi`
-7. `git clone https://github.com/GrowtopiaJaw/android_device_xiaomi_riva -b treble-vanilla`
-8. `git clone https://github.com/GrowtopiaJaw/riva_kernel_xiaomi_msm8917 -b treble`
-9. `git clone https://github.com/GrowtopiaJaw/android_vendor_xiaomi_riva -b treble-vanilla`
-10. `export LC_ALL=C && export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"`
-11. `prebuilts/sdk/tools/jack-admin start-server`
-12. `source build/envsetup.sh`
-13. `lunch lineage_riva-userdebug`
-14. `mkdir -p ~/lineage151/out/target/product/riva/obj_arm/ && mkdir -p ~/lineage151/out/target/product/riva/obj/`
-15. `cp -r vendor/xiaomi/riva/proprietary/lib ~/lineage151/out/target/product/riva/obj_arm/ && cp -r vendor/xiaomi/riva/proprietary/lib ~/lineage151/out/target/product/riva/obj/`
-16. `make -j4`
+5. `mkdir -p .repo/local_manifests`
+6. `wget https://gist.github.com/GrowtopiaJaw/95f5471d11d0b8e428e31c7158a497c4/raw/8503f2e0e84998df30d4cdf810be4787fc7b4882/roomservice.xml -O .repo/local_manifests/roomservice.xml`
+7. `repo sync -c -j4 --force-sync --no-tags --no-clone-bundle`
+8. `cd build/core && git fetch https://github.com/GrowtopiaJaw/android_build_core && git cherry-pick 928ef1c7d6ba092c1279fe6aa2d5ab2a3683cde8 && cd ../..`
+9. `export LC_ALL=C && export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"`
+10. `prebuilts/sdk/tools/jack-admin start-server`
+11. `source build/envsetup.sh`
+12. `mkdir -p ~/lineage151/out/target/product/riva/obj_arm/ && mkdir -p ~/lineage151/out/target/product/riva/obj/`
+13. `cp -r vendor/xiaomi/riva/proprietary/lib ~/lineage151/out/target/product/riva/obj_arm/ && cp -r vendor/xiaomi/riva/proprietary/lib ~/lineage151/out/target/product/riva/obj/`
+14. `brunch riva`
 
 Device configuration for Xiaomi Redmi 5A  (_riva_)
 =====================================================
@@ -47,4 +45,3 @@ Front Camera | 5.0 MP
 Release Date | October 2017
 
 ![Xiaomi Redmi 5A](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-5a-2.jpg "Xiaomi Redmi 5A")
-
